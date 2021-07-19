@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body{
+    font-family: Montserrat;
+    background-color: whitesmoke;
+}
+
+
+
+.info{
+    padding: 150px  0;
+    height: 100%;
+    background-color:whitesmoke;
+}
+
+.design{
+    padding: 50px 100px 10px;
+    background-color: #2A8BEF;
+    max-height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0 0 100% 0;
+}
+
+.login-inputs{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+
+.input{
+    margin: 10px;
+    height: 55px;
+    width: 300px;
+    background-color: #F0F0F0;
+    border-radius: 50px;
+}
+input{
+    text-align: left;
+    margin-top: 13px;
+    border-width: 0;
+    background-color: transparent;
+}
+input:focus{
+    outline: none;
+    text-align: left;
+}
+
+.signin-img{
+    width: 100%;
+    margin-top: auto;
+    padding-top: 50px;
+    margin-bottom: 20%;
+    align-self: flex-end;
+}
+
+.btn-signup{
+    color: white;
+    border-color: white;
+    border-radius: 50px;
+    width: 150px;
+    margin-bottom: auto;
+}
+
+.btn-signin{
+    background-color: #2A8BEF;
+    border-radius: 50px;
+    width: 150px;
+}
+
+.btn-signup:hover{
+    color: rgb(209, 206, 206);
+    border-color: rgb(209, 206, 206);
+}
+
+.social-accounts-link{
+    margin-top: 30px;
+}
+
+.social-link{
+    margin: 10px;
+    color: black;
+}
+
+.fas{
+    margin-right: 10px;
+}
+
+@media (max-width:500px){
+    .design{
+        border-radius: 0 0 45% 45%;
+    }
+
+    .btn-signin,.btn-signup{
+        width: 100px;
+    }
+
+    .new-here-message{
+        margin:20px 0;
+    }
+}
+
+
+
+
+
+
